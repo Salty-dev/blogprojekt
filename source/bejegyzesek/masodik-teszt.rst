@@ -1,6 +1,10 @@
 Második teszt: képletek, programkód, ábra
 =========================================
 
+.. post:: 2026-11-05
+   :tags: teszt, kepletek, python
+   :author: Salty
+
 .. image:: kepek/banner-masodik.svg
    :alt: A második tesztbejegyzés főképe
    :width: 100%

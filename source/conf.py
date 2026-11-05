@@ -20,6 +20,13 @@ extensions = [
     'ablog',
 ]
 
+blog_baseurl = 'https://salty-dev.github.io/blogprojekt/'
+blog_path = 'archivum'
+
+post_auto_excerpt = 0
+
+post_date_format = '%Y. %B %-d.'
+
 templates_path = ['_templates']
 exclude_patterns = []
 

@@ -1,0 +1,17 @@
+{% extends "!page.html" %}
+{% block body %}
+{% if pagename in ablog %}
+{% set post = ablog[pagename] %}
+{% set fa = ablog.fontawesome %}
+{% set card %}
+<ul class="ablog-meta" style="list-style:none;padding:0;margin:0 0 1.5em 0;font-size:0.9em;color:var(--pst-color-text-muted);">
+  <li>{% if fa %}<i class="fa fa-calendar"></i> {% endif %}{{ post.date.strftime(ablog.post_date_format) }}</li>
+  {% include "ablog/postcard2.html" %}
+</ul>
+<style>.ablog-meta li a:not(:last-of-type)::after{content:","}</style>
+{% endset %}
+{{ body | replace('</h1>', '</h1>' ~ card, 1) }}
+{% else %}
+{{ body }}
+{% endif %}
+{% endblock %}

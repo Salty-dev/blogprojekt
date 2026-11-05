@@ -1,5 +1,8 @@
 Első teszt: címsorok, listák, definíció
 =======================================
+.. post:: 2026-11-05
+   :tags: teszt, szerkezet, rst
+   :author: Salty
 
 .. image:: kepek/banner-elso.svg
    :alt: Az első tesztbejegyzés főképe
