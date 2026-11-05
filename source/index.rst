@@ -13,10 +13,10 @@ documentation for details.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Bejegyzések
+   :caption: Témakörök
 
-   bejegyzesek/elso-teszt
-   bejegyzesek/masodik-teszt
+   matematika/index
+   informatika/index
 
 
 Próba: $\R$ és $\N$, valamint $x^2+y^2=1$.
