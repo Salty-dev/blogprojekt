@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Az y = x^2 függvény grafikonja">
+  <rect width="400" height="300" fill="#ffffff"/>
+  <line x1="20" y1="250" x2="380" y2="250" stroke="#333333" stroke-width="2"/>
+  <line x1="200" y1="280" x2="200" y2="10" stroke="#333333" stroke-width="2"/>
+  <path d="M50,25 Q200,475 350,25" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <text x="370" y="240" font-family="sans-serif" font-size="16" fill="#333333">x</text>
+  <text x="208" y="22" font-family="sans-serif" font-size="16" fill="#333333">y</text>
+  <text x="270" y="60" font-family="sans-serif" font-size="16" fill="#c0392b">y = x²</text>
+</svg>
