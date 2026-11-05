@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Blog'
-copyright = '2026, Szerzo'
-author = 'Szerzo'
+project = 'Saltyblog - matematika és informatika kedvelőknek'
+copyright = '2026, Salty'
+author = 'Salty'
 release = '0.1'
 
 # -- General configuration ---------------------------------------------------
@@ -24,6 +24,8 @@ blog_baseurl = 'https://salty-dev.github.io/blogprojekt/'
 blog_path = 'archivum'
 
 post_auto_excerpt = 0
+blog_title = project
+html_title = project
 
 post_date_format = '%Y. %B %-d.'
 
